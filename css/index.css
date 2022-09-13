@@ -1,0 +1,71 @@
+.mydiv {
+    border: 5px dotted coral;
+    height: 80px;
+    padding: 20px
+    }
+    
+    .yourdiv {
+    
+        border: 5px solid rgb(80, 130, 255); 
+        height: 50px;
+        margin: 100px;
+    }
+    
+    .theirdiv {
+        height:300px; width: 5pc;
+    float:left;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    }
+    
+    .onecolor {
+    background-color: olive;
+    }
+    
+    .twocolor {
+        background-color: burlywood;
+    }
+    
+    ul {
+    list-style-position: inside; background-color: #3399ff; padding: 20px;
+    }
+    
+    ul li {
+        background-color: rgb(112, 95, 246);
+        color: white;
+        margin: 5px;
+      }
+    
+    
+    table, th, td {
+        border: 2px solid color coral;
+      }
+    
+      .parent {
+
+        float:left;
+        background: #CCCCCC;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        }
+        .child {
+        background: #FFFF00;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+    
+        .withspan{
+            position: relative;
+            width: 500px;
+            height:500px;
+            background: black;
+            color: whitesmoke;
+            text-align: center;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+    
